@@ -92,7 +92,7 @@ function App() {
           onChange={(e) => setFutureMessage(e.target.value)}
           placeholder="未来の自分へのメッセージ"
         />
-        <button onClick={addItem}>夢を繋ぎ止める</button>
+        <button onClick={addItem}>追加する</button>
       </div>
 
       <div className="list">
